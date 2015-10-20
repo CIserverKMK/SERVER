@@ -7,8 +7,8 @@ artifacts:
   
 deploy:
 - provider: GitHub
-  tag: organizer-v$(appveyor_build_version)
-  release: organizer-v$(appveyor_build_version)
+  tag: CI-Server-v$(appveyor_build_version)
+  release: CI-Server-v$(appveyor_build_version)
   description: Release description
   auth_token:
     secure: r08RY46/Hg/n4nO5iaFpojXXcdhjBkP4fl/KgNqOSAnG8etByXl9h0VeaP1uLiHc
