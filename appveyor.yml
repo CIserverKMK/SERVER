@@ -11,7 +11,7 @@ deploy:
   release: organizer-v$(appveyor_build_version)
   description: Release description
   auth_token:
-    secure: 4OS5X5iFBNCgmCEFg9+jAwHWQU0xJYIqsp24lkhtU7ihVHV9rRUlXWjdJ1JCAtn0
+    secure: r08RY46/Hg/n4nO5iaFpojXXcdhjBkP4fl/KgNqOSAnG8etByXl9h0VeaP1uLiHc
   artifact: setup.iss
   draft: true
   prerelease: false
